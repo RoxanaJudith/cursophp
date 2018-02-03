@@ -11,6 +11,17 @@ class Car
     //public $owner;
     private  $owner='Mike';
 
+    public function __construct($ownerName)
+    {
+        $this->owner=$ownerName;
+        echo 'constructor<br>';
+    }
+
+    public function __destruct()
+    {
+        echo '<br>destruct';
+    }
+
     public function move()
     {
         echo 'moving<br>';
@@ -27,15 +38,12 @@ class Car
 
 echo 'Class Car<br>';
 
-$car = new Car();
-$car2 = new Car();
+$car = new Car('Jose');
+$car2 = new Car('Max');
 
 $car->move();
-$car->setOwner('Alex');
-
-$car2->setOwner('Max');
 
 //$car->owner = 'Alex';
 //echo 'Owner: ' . $car->owner;
 echo 'Owner car: ' . $car->getOwner().'<br>';
-echo 'Owner car2: ' . $car->getOwner();
+echo 'Owner car2: ' . $car2->getOwner();

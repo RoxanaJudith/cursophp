@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dff7183-bd4f-4ad2-a277-c16b75b1390e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/conditionals/index.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conditionals/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -55,6 +66,7 @@
         <option value="$PROJECT_DIR$/operators/increment.php" />
         <option value="$PROJECT_DIR$/operators/logical.php" />
         <option value="$PROJECT_DIR$/operators/null.php" />
+        <option value="$PROJECT_DIR$/conditionals/index.php" />
       </list>
     </option>
   </component>
@@ -99,6 +111,11 @@
             <path>
               <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="conditionals" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="variables" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -139,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517251823622</updated>
       <workItem from="1517251825509" duration="7687000" />
-      <workItem from="1517688444333" duration="10000" />
+      <workItem from="1517688444333" duration="1244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7726000" />
+    <option name="totallyTimeSpent" value="8960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -288,6 +305,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conditionals/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

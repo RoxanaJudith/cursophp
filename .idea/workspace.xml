@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dff7183-bd4f-4ad2-a277-c16b75b1390e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/oop/namespaces/index.php" afterPath="$PROJECT_DIR$/oop/namespaces/index.php" />
-      <change beforePath="$PROJECT_DIR$/oop/namespaces/vehicles/Truck.php" afterPath="$PROJECT_DIR$/oop/namespaces/vehicles/Truck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Car.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Truck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/VehicleBase.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,6 +60,10 @@
         <option value="$PROJECT_DIR$/oop/namespaces/vehicles/Car.php" />
         <option value="$PROJECT_DIR$/oop/namespaces/vehicles/Truck.php" />
         <option value="$PROJECT_DIR$/oop/namespaces/index.php" />
+        <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/index.php" />
+        <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Truck.php" />
+        <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Car.php" />
+        <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/VehicleBase.php" />
       </list>
     </option>
   </component>
@@ -113,14 +120,20 @@
               <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="oop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="namespaces" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="abstractypolimorfismo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="oop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="abstractypolimorfismo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vehicles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="oop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="namespaces" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vehicles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
@@ -141,6 +154,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cursophp\oop\abstractypolimorfismo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\cursophp\oop\namespaces" />
       <recent name="C:\xampp\htdocs\cursophp\functions" />
@@ -173,12 +189,12 @@
       <updated>1517251823622</updated>
       <workItem from="1517251825509" duration="7687000" />
       <workItem from="1517688444333" duration="8609000" />
-      <workItem from="1517749054875" duration="5938000" />
+      <workItem from="1517749054875" duration="7528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22263000" />
+    <option name="totallyTimeSpent" value="23853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -463,6 +479,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="38" column="102" lean-forward="false" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/abstractypolimorfismo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/VehicleBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Truck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

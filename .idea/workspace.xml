@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dff7183-bd4f-4ad2-a277-c16b75b1390e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Car.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Truck.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/VehicleBase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/interfaces/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/interfaces/vehicles/Car.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/interfaces/vehicles/Truck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/oop/interfaces/vehicles/VehicleBase.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +19,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Car.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/interfaces/vehicles/Car.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oop/interfaces/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Truck.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/interfaces/vehicles/Truck.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-166">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VehicleBase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oop/interfaces/vehicles/VehicleBase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-315">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +105,10 @@
         <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Truck.php" />
         <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/Car.php" />
         <option value="$PROJECT_DIR$/oop/abstractypolimorfismo/vehicles/VehicleBase.php" />
+        <option value="$PROJECT_DIR$/oop/interfaces/vehicles/VehicleBase.php" />
+        <option value="$PROJECT_DIR$/oop/interfaces/vehicles/Truck.php" />
+        <option value="$PROJECT_DIR$/oop/interfaces/vehicles/Car.php" />
+        <option value="$PROJECT_DIR$/oop/interfaces/index.php" />
       </list>
     </option>
   </component>
@@ -126,7 +171,13 @@
               <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="oop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="abstractypolimorfismo" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cursophp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cursophp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="oop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vehicles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -155,6 +206,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cursophp\oop\interfaces" />
       <recent name="C:\xampp\htdocs\cursophp\oop\abstractypolimorfismo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -189,17 +241,18 @@
       <updated>1517251823622</updated>
       <workItem from="1517251825509" duration="7687000" />
       <workItem from="1517688444333" duration="8609000" />
-      <workItem from="1517749054875" duration="7528000" />
+      <workItem from="1517749054875" duration="9910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23853000" />
+    <option name="totallyTimeSpent" value="26235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -511,6 +564,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/interfaces/vehicles/Truck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/interfaces/vehicles/VehicleBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/interfaces/vehicles/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/interfaces/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding />
         </state>
       </provider>

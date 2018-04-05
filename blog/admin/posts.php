@@ -1,5 +1,5 @@
 <?php
-include_once  'config.php';
+include_once  '../config.php';
 $query = $pdo->prepare('SELECT * FROM blog_posts ORDER BY id DESC');
 $query->execute();
 
@@ -26,20 +26,25 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
     </div>
     <div class="row">
         <div class="col-md-8">
-            <?php
-            foreach ($blogPosts as $blogPost){
-                echo '<div class="blog-post">';
-                echo '<h2>' . $blogPost['title'] . '</h2>';
-                echo '<p>Jan 1, 2020 by <a href="">Roxana</a></p>';
-                echo '<div class="blog-post-image">';
-                echo '<img src="images/keyboard.jpg" width="100%" height="200px" alt="">';
-                echo '</div>';
-                echo '<div class="blog-post-content">';
-                echo $blogPost['content'];
-                echo '</div>';
-                echo '</div>';
-            }
-            ?>
+            <h2>Posts</h2>
+            <a class="btn btn-primary" href="insert-post.php">New Post</a>
+            <table class="table"> 
+                <tr>
+                    <th>Title</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                <?php
+                foreach ($blogPosts as $blogPost) {
+                    echo '<tr>';
+                    echo '<td>' . $blogPost['title'] . '</td>';
+                    echo '<td>Edit</td>';
+                    echo '<td>Delete</td>';
+                    echo '</tr>';
+                }
+                ?>
+            </table>
+            
         </div>
         <div class="col-md-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

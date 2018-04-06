@@ -1,10 +1,3 @@
-<?php
-// include_once  '../config.php';
-$query = $pdo->prepare('SELECT * FROM blog_posts ORDER BY id DESC');
-$query->execute();
-
-$blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,25 +19,13 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
     </div>
     <div class="row">
         <div class="col-md-8">
-            <h2>Posts</h2>
-            <a class="btn btn-primary" href="insert-post.php">New Post</a>
-            <table class="table"> 
-                <tr>
-                    <th>Title</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
-                </tr>
-                <?php
-                foreach ($blogPosts as $blogPost) {
-                    echo '<tr>';
-                    echo '<td>' . $blogPost['title'] . '</td>';
-                    echo '<td>Edit</td>';
-                    echo '<td>Delete</td>';
-                    echo '</tr>';
-                }
-                ?>
-            </table>
-            
+            <h2>Admin Panel</h2>
+            <ul>
+                <li>
+                    <!-- <a href="posts.php">Manage Admin</a> -->
+                    <a href="<?php echo BASE_URL; ?>admin/posts">Manage Admin</a>
+                </li>
+            </ul>
         </div>
         <div class="col-md-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -54,10 +35,12 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
         <div class="col-md-12">
             <footer>
                 This is a footer <br>
-                <a href="admin/index.php">Admin Panel</a>
+                <!-- <a href="admin/index.php">Admin Panel</a> -->
+                <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
+
             </footer>
         </div>
-        
+
     </div>
 </div>
 </body>

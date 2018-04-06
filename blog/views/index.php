@@ -21,19 +21,19 @@
     <div class="row">
         <div class="col-md-8">
             <?php
-            foreach ($blogPosts as $blogPost){
-                echo '<div class="blog-post">';
-                echo '<h2>' . $blogPost['title'] . '</h2>';
-                echo '<p>Jan 1, 2020 by <a href="">Roxana</a></p>';
-                echo '<div class="blog-post-image">';
-                echo '<img src="images/keyboard.jpg" width="100%" height="200px" alt="">';
-                echo '</div>';
-                echo '<div class="blog-post-content">';
-                echo $blogPost['content'];
-                echo '</div>';
-                echo '</div>';
-            }
-            ?>
+foreach ($blogPosts as $blogPost) {
+	echo '<div class="blog-post">';
+	echo '<h2>' . $blogPost['title'] . '</h2>';
+	echo '<p>Jan 1, 2020 by <a href="">Roxana</a></p>';
+	echo '<div class="blog-post-image">';
+	echo '<img src="images/keyboard.jpg" width="100%" height="200px" alt="">';
+	echo '</div>';
+	echo '<div class="blog-post-content">';
+	echo $blogPost['content'];
+	echo '</div>';
+	echo '</div>';
+}
+?>
         </div>
         <div class="col-md-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -43,10 +43,10 @@
         <div class="col-md-12">
             <footer>
                 This is a footer <br>
-                <a href="admin/index.php">Admin Panel</a>
+                <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
             </footer>
         </div>
-        
+
     </div>
 </div>
 </body>

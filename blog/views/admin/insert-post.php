@@ -1,15 +1,15 @@
 <?php
 // include_once '../config.php';
-$result = false;
+// $result = false;
 
-if(!empty($_POST)){
-    $sql = 'INSERT INTO blog_posts(title, content) VALUES(:title, :content)';
-    $query = $pdo->prepare($sql);
-    $result = $query->execute([
-        'title' => $_POST['title'],
-        'content' => $_POST['content']
-    ]);
-}
+// if (!empty($_POST)) {
+// 	$sql = 'INSERT INTO blog_posts(title, content) VALUES(:title, :content)';
+// 	$query = $pdo->prepare($sql);
+// 	$result = $query->execute([
+// 		'title' => $_POST['title'],
+// 		'content' => $_POST['content'],
+// 	]);
+// }
 ?>
 
 <!doctype html>
@@ -32,17 +32,19 @@ if(!empty($_POST)){
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8">            
+        <div class="col-md-8">
             <h2>New Posts</h2>
             <p>
-                <a class="btn btn-primary" href="posts.php">Back to Posts</a>
+                <!-- <a class="btn btn-primary" href="posts.php">Back to Posts</a> -->
+                <a class="btn btn-primary" href="<?php echo BASE_URL; ?>admin/posts">Back to Posts</a>
             </p>
             <?php
-                if($result){
-                    echo '<div class="alert alert-success">Post Saved!</div>';
-                }
-            ?>
-            <form action="insert-post.php" method="post">
+if (isset($result) && $result) {
+	echo '<div class="alert alert-success">Post Saved!</div>';
+}
+?>
+            <!-- <form action="insert-post.php" method="post"> -->
+            <form method="post">
                 <div class="form-group">
                     <label for="inputTitle">Title</label>
                     <input class="form-control" type="text" name="title" id="inputTitle">
@@ -59,10 +61,11 @@ if(!empty($_POST)){
         <div class="col-md-12">
             <footer>
                 This is a footer <br>
-                <a href="admin/index.php">Admin Panel</a>
+                <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
+
             </footer>
         </div>
-        
+
     </div>
 </div>
 </body>

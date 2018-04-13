@@ -11,16 +11,19 @@ $baseUrl = 'http://' . $_SERVER['HTTP_HOST'] . $baseDir;
 define('BASE_URL', $baseUrl);
 // var_dump($baseUrl);
 
+$dotenv = new \Dotenv\Dotenv(__DIR__ . '/..');
+$dotenv->load();
+
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 $capsule = new Capsule;
 
 $capsule->addConnection([
 	'driver' => 'mysql',
-	'host' => 'localhost',
-	'database' => 'cursophp',
-	'username' => 'root',
-	'password' => '',
+	'host' => getenv('DB_HOST'),
+	'database' => getenv('DB_NAME'),
+	'username' => getenv('DB_USER'),
+	'password' => getenv('DB_PASS'),
 	'charset' => 'utf8',
 	'collation' => 'utf8_unicode_ci',
 	'prefix' => '',
@@ -49,14 +52,4 @@ $response = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $route);
 
 echo $response;
 
-// switch($route){
-// 	case '/':
-// 		require '../index.php';
-// 		break;
-// 	case '/admin':
-// 		require '../admin/index.php';
-// 		break;
-// 	case '/admin/posts'	:
-// 		require '../admin/posts.php';
-// }
 ?>
